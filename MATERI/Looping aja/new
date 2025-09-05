@@ -1,0 +1,60 @@
+
+
+# TIPE TIPE DATA
+print("materi 6 - pyton data structures")
+print("------------------------")
+
+# List [] ( berurutan, bisa diubah, boleh duplikat )
+#"---------LIST---------------"
+daftar_belanjaan = ["beras" # index 0
+                  , "gula" # index 1
+                  , "minyak" # index 2
+                  , "telur" # index 3
+                  , "susu"] # index 4
+#print("Daftar belanjaan saya adalah : ", daftar_belanjaan)  
+#print("Daftar belanjaan saya adalah : ", daftar_belanjaan[0])  # akses index ke-0
+#print("Daftar belanjaan saya adalah : ", daftar_belanjaan[1])  # akses index ke-1
+#print("Daftar belanjaan saya adalah : ", daftar_belanjaan[2])  # akses index ke-2
+#print("Daftar belanjaan saya adalah : ", daftar_belanjaan[3])  # akses index ke-3
+#print("Daftar belanjaan saya adalah : ", daftar_belanjaan[4])  # akses index ke-4       
+
+# mengubah list
+buah :[1] = "pisang"
+print(buah)
+# menambah item ke list(append)
+#daftar_belanjaan.append("olive")
+#daftar_belanjaan.append("es teh desa")
+#print("Daftar belanjaan saya sekarang adalah : ", daftar_belanjaan)
+
+
+
+# menghapus item dari list (remove)
+#daftar_belanjaan.remove("olive")
+#print("Daftar belanjaan saya setelah dihapus adalah : ", daftar_belanjaan)
+
+
+#print("---------TUPLE---------------")
+# Tuple () ( berurutan, tidak bisa diubah, boleh duplikat )
+#Tanggal_lahir = ("09", "Mei", "2008")
+#print("tanggal lahir bang jepri:",Tanggal_lahir)
+#print("tanggal lahir bang jepri:",Tanggal_lahir[0])  # akses index ke-0
+#print("bulan lahir bang jepri:",Tanggal_lahir[1])  # akses index ke-1
+#print("tahun lahir bang jepri:",Tanggal_lahir[2])  # akses index ke-2
+
+# akses bulan (posisi index) 
+#print("bulan tahun:", Tanggal_lahir[2:4])  # akses index ke-2 sampai ke-4
+
+# manipluasi list lanjutan
+# menggabungkan list dengan +
+#jajan_ujang = ["keripik", "ciki", "coklat"]
+#jajan_asep = ["kerupuk", "cimol", "susu"]
+#jajan_ujang_asep = jajan_ujang + jajan_asep
+#print("jajan ujang dan asep:", jajan_ujang_asep)
+
+#list_minumman = [
+# ["air", "jus", "soda"],#baris 0
+ #["kopi", "teh", "coklat"], #baris 1
+# ["susu", "soda", "es campur"], #baris 2
+#
+#print( list_minumman)
+#print( list_minumman[2][1])  # akses baris 2 kolom 1 ( susu)

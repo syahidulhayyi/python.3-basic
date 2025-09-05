@@ -1,0 +1,82 @@
+
+
+
+
+# tugas mandiri
+#     
+
+#umur = int(input("masukan umur mu :"))
+#if umur >= 17 and umur <= 40 :
+ #   print("kamu udah cukup umur bang") 
+#elif umur >= 7 and umur <= 14 :
+   # print("masih bocil kau dekk")
+
+
+#umur =int(input("masukan umur mu :"))
+
+#if umur >= 18:
+ #   print("kamu sudah dewasa")
+#else:
+#    print("masiih bocil kau dekk")
+
+#no =  1
+#batas = 10 
+#while (no > batas) :
+#print("ulangi ke-", no)
+   # print("angka ke-", no)
+#no+=1
+
+buah = ['apel', 'jeruk', 'mangaa', 'durian', 'kelapa']
+
+# 1. mengakses elemen [index]
+
+print(buah[0])
+
+# 2. mengubah nilainya
+
+buah[1] = 'pisang'
+print(buah)
+
+# 3. menambahkan elemen
+# dia akhir
+buah.append('semangka')
+print(buah)
+
+# di index terserah
+buah.insert(4, 'rambutan')
+print(buah)
+
+
+# menghapus berdasarkan isi
+buah.remove('kelapa')
+print(buah)
+
+# menghapus berdasarkan index
+buah.pop(1)
+print(buah)
+
+# 5. panjang list
+print(len(buah))
+
+# 6. mencetak seluruh isi list
+for item in buah:
+    print(item)
+
+# tugassss
+
+ListBuah = []
+print("masukan lima jenis buah")
+buah1 = input("masukan buah ke 1: ")
+ListBuah.append(buah1)
+buah2 = input("masukan buah ke 2: ")
+ListBuah.append(buah2)
+buah3 = input("masukan buah ke 3: ")
+ListBuah.append(buah3)
+buah4 = input("masukan buah ke 4: ")
+ListBuah.append(buah4)
+buah5 = input("masukan buah ke 5: ")
+ListBuah.append(buah5)      
+print("Daftar buah yang kamu masukan adalah:")
+for buah in ListBuah:
+  print(buah)
+
